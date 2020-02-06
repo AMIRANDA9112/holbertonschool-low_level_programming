@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error\.\n")
+	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.\n");
 
-	return 0;
+	return (0);
 }
