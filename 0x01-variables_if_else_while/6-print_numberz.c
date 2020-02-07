@@ -10,10 +10,10 @@
 	int main(void)
 
 {
-	int ls;
+	int xs;
 
-	for (ls = 0; ls < 10; ls++)
-	putchar(48 + ls);
+	for (xs = 0; l < 10; xs++)
+	putchar(48 + xs);
 	putchar(10);
 	return(0);
 }
