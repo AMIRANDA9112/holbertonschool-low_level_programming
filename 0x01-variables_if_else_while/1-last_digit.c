@@ -8,13 +8,15 @@
 int main(void)
 {
 	int n;
+	char *t;
+	char *r;
 	char *b;
 	int a;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 5)
+	if (n < 5)
 {
 		a = (n % 10);
 		b = "and is greater than 5";
@@ -23,15 +25,14 @@ int main(void)
 	else if (n == 0)
 {
 		a = (n % 10);
-		b = "is zero";
-		printf("Last digit of %d is %d  %s\n", n, a, b);
+		r = "is zero";
+		printf("Last digit of %d is %d %s\n", n, a, r);
 }
-	else if (n < 6 && n > 0)
+	else 
 {
 		a = (n % 10);
-		b = "and is less than 6 and not 0";
-		printf("Last digit of %d is %d %s\n", n, a, b);
+		t = "and is less than 6 and not 0";
+		printf("Last digit of %d is %d %s\n", n, a, t);
 }
-
 	return (0);
 }
