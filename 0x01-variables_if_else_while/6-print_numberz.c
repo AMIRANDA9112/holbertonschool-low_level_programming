@@ -1,19 +1,20 @@
+#include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return: always 0 (succes)
+ * main - start of the program
+ *
+ * Return: 0
  */
-
-	int main(void)
-
+int main(void)
 {
-	int xs;
+	int in;
 
-	for (xs = 0; l < 10; xs++)
-	putchar(48 + xs);
-	putchar(10);
-	return(0);
+	for (in = 0 ; in <= 9 ; in++)
+{
+	putchar(in + '0');
+}
+	putchar('\n');
+	return (0);
 }
