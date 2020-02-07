@@ -1,26 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - prints digits from 0 to 9
- *
- * Return: 0 on success
- */
+* main - possible combinations of single digit numbers
+* Return: 0
+**/
 
 int main(void)
 {
-	int s1 = 0;
-	int s2 = 0;
+	int n;
+/*	int c; */
+	int v;
 
-	for (s1 = 0; s1 <= 9; s1++)
+	for (n = 48; n <= 57; n++)
 {
-	for (s2 = s1 + 1; s2 <= 9; s2++)
+		for (v = 48; v <= 57; v++)
 {
-	putchar(s1 + 48);
-	putchar(s2 + 48);
-	if (s1 < 8)
+			putchar(n);
+			putchar(v);
+			if (v != 57 || n != 57)
 {
-	putchar(',');
-	putchar(' ');
+			putchar(44);
+			putchar(32);
 }
 }
 }
