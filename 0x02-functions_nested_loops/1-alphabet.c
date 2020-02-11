@@ -15,7 +15,6 @@ void print_alphabet(void)
 	i++;
 }
 	if (i > 'z')
-
 {
 	_putchar('\n');
 }
