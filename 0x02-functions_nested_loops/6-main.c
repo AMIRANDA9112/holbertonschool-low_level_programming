@@ -1,4 +1,3 @@
-julien@ubuntu:~/0x02$ cat 6-main.c
 #include "holberton.h"
 #include <stdio.h>
 
