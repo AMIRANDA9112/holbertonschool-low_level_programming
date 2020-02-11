@@ -1,11 +1,11 @@
 #include "holberton.h"
 /**
- * main - start of the program
+ * print_alphabet - start of the program
  *
  * Return: 0
  */
-void print_alphabet(void)
 
+void print_alphabet(void)
 {
 	char i = 'a';
 
