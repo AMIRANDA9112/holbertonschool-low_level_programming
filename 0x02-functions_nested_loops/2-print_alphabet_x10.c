@@ -1,10 +1,9 @@
 #include "holberton.h"
 /**
- * print_alphabet_x10 - start of the program
- *
- * Return: 0
+ * print_alphabet_x10 - Entry point
+ * description: prints alphabet 10 times
+ * Return: Always 0 (Success)
  */
-
 void print_alphabet_x10(void)
 
 {
