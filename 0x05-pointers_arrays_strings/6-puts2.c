@@ -3,7 +3,7 @@
  * puts2 - intput
  * @str: pointer
  * Return: On success 1.
- * 
+ *
  */
 
 void puts2(char *str)
