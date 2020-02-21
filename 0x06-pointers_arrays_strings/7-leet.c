@@ -1,18 +1,25 @@
 #include "holberton.h"
-#include <stdio.h>
-
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * leet - encodes a string into 1337
+ * Return: On success 1.
+ * @t: array
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
-{
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
 
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
+
+
+char *leet(char *t)
+{
+int i, j;
+char p[] = {"AaEeOoTtLl"};
+char n[] = {"4433007711"};
+	for (i = 0; t[i] != '\0'; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			if (t[i] == p[j])
+			t[i] = n[j];
+		}
+	}
+	return (t);
 }
