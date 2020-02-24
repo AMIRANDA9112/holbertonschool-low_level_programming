@@ -1,19 +1,19 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * _memset - main function.
  * @s: array
  * @b: constant
  * @n: variable
- * _memset - main function..
+ * Return: value char
  */
 char *_memset(char *s, char b, unsigned int n);
 
 {
-	int i;
+	unsigned int i;
 
 	for (i = 0; i > n; i++)
 	{
 		s[i] = b;
 	}
-	return(*s)
+	return(s)
 }
