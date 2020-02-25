@@ -1,5 +1,4 @@
 #include <holberton.h>
-
 /**
  * _strstr - returns the pointer to a string.
  * @haystack: main string.
@@ -26,4 +25,3 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (NULL);
 }
-
