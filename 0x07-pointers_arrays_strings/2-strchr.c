@@ -1,25 +1,26 @@
 #include "holberton.h"
-#include <stdio.h>
-
 /**
- * *_strchr - character in a string
+ * *_strchr - main function
  * @s: string
- * @c: pointer to the source of dat to be copied
+ * @c: pointer
  *
- * Return: s ( char o NULL)
+ * Return: char
  */
+
 char *_strchr(char *s, char c)
 {
-	for (s = 0; *s != '\0'; s++)
+	int i;
+
+	for (i = 0; s[i] != '\0' ; s++)
 	{
-		if (*s == c)
+		if (s[i] == c)
 		{
 			return (s);
 		}
 	}
-	if (c == '\0')
+	if (s[i] == c)
+	{
 		return (s);
-	s = '\0';
-
-	return (s);
+	}
+	return (0);
 }
