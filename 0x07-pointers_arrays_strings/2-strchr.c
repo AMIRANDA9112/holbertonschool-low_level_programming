@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strchr - locates a character in a string
+ * *_strchr - character in a string
  * @s: string
  * @c: pointer to the source of dat to be copied
  *
