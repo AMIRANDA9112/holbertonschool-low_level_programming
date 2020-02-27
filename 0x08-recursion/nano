@@ -1,0 +1,35 @@
+#include "holberton.h"
+/**
+ * _sqrt_recursion - main function.
+ * @n: Int number
+ * Return: int number
+ */
+int _sqrt_recursion(int n)
+{
+	if (n == 0)
+	{
+		return (0);
+	}
+	return (sqrt_rec(1, n));
+}
+/**
+ * pre_sqrt - branch function.
+ * @x: Int number
+ * @y: int number same to n
+ * Return: integer number
+ */
+int pre_sqrt(int x, int y)
+{
+	if (x * x == y)
+		{
+		return (x);
+		}
+	else if (x * x > y)
+		{
+		return (-1);
+		}
+	else
+		{
+		return (pre_sqrt(x + 1, y));
+		}
+}
