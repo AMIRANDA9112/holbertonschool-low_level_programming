@@ -1,5 +1,9 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
+int palLen(char str[], int s, int e);
+int is_palindrome(char *s);
+int verifica(int p, int i);
+int is_prime_number(int n);
 int sqrt_(int x, int y);
 int _sqrt_recursion(int n);
 int _pow_recursion(int x, int y);
