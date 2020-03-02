@@ -1,14 +1,19 @@
-#include "holberton.h"
+#include <stdio.h>
 /**
- * main - print the program name and arguments
- * @argc: size of the argument vector
- * @argv: program name and arguments
- * Return: Always 0
- */
-int main(int argc, char *argv[])
+ * main - antry point.
+ * @argc: numbers of arguments.
+ * @argv: aguments pesed by console.
+ * Return: 0
+*/
+int main(int argc __attribute__((unused)),
+	char *argv[] __attribute__((unused)))
 {
-	do {
-		_puts(*argv++);
-	} while (--argc > 0);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
 	return (0);
 }
