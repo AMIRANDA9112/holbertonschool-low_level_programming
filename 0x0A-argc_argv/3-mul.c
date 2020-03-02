@@ -1,18 +1,27 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
- * main - antry point.
- * @argc: numbers of arguments.
- * @argv: aguments pesed by console.
- * Return: 0
-*/
-int main(int argc __attribute__((unused)), char *argv[] __attribute__((unused)))
+ * main - program that multiplies two numbers.
+ * @argc: Args counter
+ * @argv: Args array
+ * Return: 1=Success  0=Error
+ */
+int main(int argc, char **argv)
 {
+	int times;
 	int i;
+	int x;
 
-	for (i = 0; i < argc; i++)
+	times = i = x = 1;
+	if (argc == 3)
 	{
-		printf("%s\n", argv[i]);
+		times = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", times);
+		return (EXIT_SUCCESS);
 	}
-
-	return (0);
+	else
+	{
+		printf("Error\n");
+		return (EXIT_FAILURE);
+	}
 }
