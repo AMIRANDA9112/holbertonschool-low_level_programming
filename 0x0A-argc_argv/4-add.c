@@ -8,7 +8,8 @@
  * @argv: arguments pased by console
  * Return: 0
  */
-int main(int argc __attribute__((unused)), char *argv[] __attribute__((unused)))
+int main(int argc __attribute__((unused)),
+	char *argv[] __attribute__((unused)))
 {
 	int rv = 0, i, j, sum __attribute__((unused)) = 0;
 	int len = 0, r = 0, d = 1, p = 0, n;
