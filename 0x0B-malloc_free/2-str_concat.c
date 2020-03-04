@@ -1,65 +1,33 @@
-#include <stdlib.h>
-#include <limits.h>
 #include "holberton.h"
 
 /**
- * *str_concat - concatenates two strings
- * @s1: the pointer to the string to copy
- * @s2: amo a mi mama
- * Return: Pointer to the new string
+ * str_concat - function that concatenates two strings
+ * @s1: string1
+ * @s2: string2
+ * Return: pointer to string
  */
-
 char *str_concat(char *s1, char *s2)
 {
-	int i, j, k, l, size;
-	char *ptr;
+	char *a;
+	unsigned int size1, size2, i;
 
-	i = j = k = l = 0;
-
+	size1 = size2 = 0;
 	if (s1 == NULL)
-	{
-		s1 = malloc(1 * (sizeof(char)));
-		s1[0] = '\0';
-	}
-
+		s1 = "";
 	if (s2 == NULL)
-	{
-		s2 = malloc(1 * (sizeof(char)));
-		s2[0] = '\0';
-	}
-
-		while (s1[i] != '\0')
-		{
-			i++;
-		}
-
-		while (s2[j] != '\0')
-		{
-			j++;
-		}
-
-	size = j + i;
-	ptr = malloc(size * (sizeof(char)));
-
-	if (ptr == NULL)
-	{
+		s2 = "";
+	while (*(s1 + size1))
+		size1++;
+	while (*(s2 + size2))
+		size2++;
+	size2++;
+	a = malloc(sizeof(char) * (size1 + size2));
+	if (a == NULL)
 		return (NULL);
-	}
-
-	l = 0;
-
-	while (k < i)
-	{
-		ptr[k] = s1[k];
-			k++;
-	}
-
-	while (k <= size)
-	{
-		ptr[k] = s2[l];
-		k++;
-		l++;
-	}
-
-	return (ptr);
+	for (i = 0; i < size1; i++)
+		*(a + i) = *(s1 + i);
+	for (i = 0; i < size2; i++)
+		*(a + (i + size1)) = *(s2 + i);
+	*(a + (size1 + size2)) = '\0';
+	return (a);
 }
