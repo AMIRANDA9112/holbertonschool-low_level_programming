@@ -1,34 +1,53 @@
 #include <stdlib.h>
 #include <limits.h>
+#include "holberton.h"
+
 /**
- * _strdup - main function
- * @str: inputarray
- * Return: char pointer
+ * *str_concat - concatenates two strings
+ * @s1: the pointer to the string to copy
+ * @s2: amo a mi mama
+ * Return: Pointer to the new string
  */
-char *_strdup(char *str)
+
+char *str_concat(char *s1, char *s2)
 {
-	int i, size;
-	char *s;
+	int i, j, k, l, size;
+	char *ptr;
 
-	if (str == NULL)
-		return (NULL);
-
-	for (size = 0; str[size] != '\0'; size++)
+	i = j = k = l = 0;
+	if (s1 == NULL)
 	{
+		s1 = malloc(1 * (sizeof(char)));
+		s1[0] = '\0';
 	}
-	size++;
-	if (size != 0)
+	if (s2 == NULL)
 	{
-		s = malloc(size * sizeof(char));
-		if (s == NULL)
-			return (NULL);
-
-		for (i = 0; i <= size; i++)
-		{
-			s[i] = str[i];
-		}
+		s2 = malloc(1 * (sizeof(char)));
+		s2[0] = '\0';
 	}
-	else
+	while (s1[i] != '\0')
+	{
+		i++;
+	}
+	while (s2[j] != '\0')
+	{
+		j++;
+	}
+	size = j + i;
+	ptr = malloc(size * (sizeof(char)));
+	if (ptr == NULL)
 		return (NULL);
-	return (s);
+	l = 0;
+	while (k < i)
+	{
+		ptr[k] = s1[k];
+			k++;
+	}
+	while (k <= size)
+	{
+		ptr[k] = s2[l];
+		k++;
+		l++;
+	}
+	return (ptr);
 }
