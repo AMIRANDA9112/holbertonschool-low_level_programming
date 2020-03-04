@@ -1,33 +1,64 @@
 #include "holberton.h"
-
+#include <stdlib.h>
 /**
- * str_concat - function that concatenates two strings
- * @s1: string1
- * @s2: string2
- * Return: pointer to string
+ * _strlen -  returns the length of a string.
+ *@s: char
+ * Return: i
  */
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+
+}
+/**
+ *str_concat - function that returns a pointer
+ *@s1: char
+ *@s2: char
+ * Return: dest
+ */
+
+
 char *str_concat(char *s1, char *s2)
 {
-	char *a;
-	unsigned int size1, size2, i;
+	char *dest;
+	int len1 = 0, len2 = 0, size = 0, j;
 
-	size1 = size2 = 0;
-	if (s1 == NULL)
-		s1 = "";
-	if (s2 == NULL)
-		s2 = "";
-	while (*(s1 + size1))
-		size1++;
-	while (*(s2 + size2))
-		size2++;
-	size2++;
-	a = malloc(sizeof(char) * (size1 + size2));
-	if (a == NULL)
+	if (s1)
+	{
+		len1 = _strlen(s1);
+	}
+	if (s2)
+	{
+		len2 = _strlen(s2) + 1;
+	}
+	size = len1 + len2;
+	dest = malloc(size * sizeof(char));
+	if (!dest)
+	{
 		return (NULL);
-	for (i = 0; i < size1; i++)
-		*(a + i) = *(s1 + i);
-	for (i = 0; i < size2; i++)
-		*(a + (i + size1)) = *(s2 + i);
-	*(a + (size1 + size2)) = '\0';
-	return (a);
+	}
+	for (j = 0; j < size; j++)
+	{
+		if (j < len1)
+		{
+			dest[j] = s1[j];
+
+		}
+		else if (j >= len1 && j < size)
+		{
+			dest[j] = s2[j - len1];
+
+		}
+	}
+	dest[j] = '\0';
+	return (dest);
+
+
 }
