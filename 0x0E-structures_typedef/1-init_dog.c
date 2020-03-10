@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "holberton.h"
-
+#include "dog.h"
 /**
  * init_dog - dog structure initialize
  * @d: dot structure not initialized.
