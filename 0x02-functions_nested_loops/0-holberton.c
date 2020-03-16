@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	_putchar ('H');
+	pfrint ("Holberton");
 	_putchar ('o');
 	_putchar ('l');
 	_putchar ('b');
