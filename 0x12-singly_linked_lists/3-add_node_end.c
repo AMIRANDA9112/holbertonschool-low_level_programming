@@ -3,6 +3,7 @@
  * add_node - add a new node at the beginning of list
  * @head: double pointer to head
  * @str: string to be saved in new node, must be duplicated
+ * Description: create new list in tail
  * Return: Address of new element or NULL if failed
  */
 list_t *add_node_end(list_t **head, const char *str)
@@ -22,10 +23,10 @@ list_t *add_node_end(list_t **head, const char *str)
 	new->next = NULL;
 
 	if (transit == NULL)
-		{
+	{
 		*head = new;
 		return(*head);
-		}
+	}
 
 	while(transit->next != NULL)
 		transit = transit->next;
