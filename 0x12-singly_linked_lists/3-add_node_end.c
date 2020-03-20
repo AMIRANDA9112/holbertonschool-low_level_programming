@@ -22,7 +22,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	new->next = NULL;
 
 	if (transit == NULL)
-
+		{
 		*head = new;
 		return(*head);
 		}
