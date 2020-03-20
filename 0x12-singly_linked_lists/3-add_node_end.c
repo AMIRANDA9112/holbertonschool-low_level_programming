@@ -15,9 +15,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	while (str[i])
 		i++;
 
-	if (str == NULL)
-		return (NULL);
-
 	if (new == NULL)
 		return(NULL);
 
@@ -25,15 +22,16 @@ list_t *add_node_end(list_t **head, const char *str)
 	new->len = i;
 	new->next = NULL;
 
-	if (*head == NULL)
-	{
+	if (transit == NULL)
+		{
 		*head = new;
 		return(*head);
-	}
+		}
 
-	if(transit->next != NULL)
+	while(transit->next != NULL)
 		transit = transit->next;
 
 	transit->next = new;
+
 	return(*head);
 }
