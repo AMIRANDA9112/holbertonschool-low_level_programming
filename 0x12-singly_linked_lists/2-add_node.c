@@ -1,49 +1,49 @@
-# incluye  " lists.h "
-/ * *
- * _strlen: muestra la longitud de la cadena
- * @s: personaje
- * Descripción: Mostrar longitud de cuerda
- * Retorno: valor de la longitud
- * /
-int  _strlen ( char * s)
+#include "lists.h"
+/**
+ * _strlen - show length of string
+ * @s: character
+ * Description: Show lenght of string
+ * Return: value of lenght
+ */
+int _strlen(char *s)
 {
 	int i;
 	int len;
 
-	for (i = 0 ; s [len]! = ' \ 0 ' ; ++ i)
+	for (i = 0 ; s[len] != '\0' ; ++i)
 	{
 		len = i;
 	}
-	volver (len);
+	return (len);
 }
-/ * *
- * add_node - agrega nodo
- * @head: puntero de una lista vinculada individualmente
- * @str: cadena para agregar
- * Descripción: agregue un nodo al comienzo de la lista
- * Retorno: número de nodos
- * /
-list_t * add_node ( list_t ** head, const  char * str)
+/**
+ * add_node - add node
+ * @head: pointer of a singly linked list
+ * @str: string to add
+ * Description: add a node at the start of the list
+ * Return: number of nodes
+ */
+list_t *add_node(list_t **head, const char *str)
 {
 	int len;
-	char * s;
-	list_t * add;
+	char *s;
+	list_t *add;
 
-	if (str == NULL )
-		return ( NULL );
-	add = malloc ( sizeof ( list_t ));
-	if (agregar == NULL )
-		return ( NULL );
-	s = strdup (str);
-	if (s == NULL )
+	if (str == NULL)
+		return (NULL);
+	add = malloc(sizeof(list_t));
+	if (add == NULL)
+		return (NULL);
+	s = strdup(str);
+	if (s == NULL)
 	{
-		gratis (agregar);
-		return ( NULL );
+		free(add);
+		return (NULL);
 	}
-	len = _strlen (s);
-	agregar-> str = s;
-	add-> len = len;
-	agregar-> siguiente = * cabeza;
-	* cabeza = agregar;
-	volver (agregar);
+	len = _strlen(s);
+	add->str = s;
+	add->len = len;
+	add->next = *head;
+	*head = add;
+	return (add);
 }
