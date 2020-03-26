@@ -8,21 +8,21 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *adr, *new;
+	listint_t *loc, *new;
 	unsigned int i;
 
 	if (head == NULL)
 		return (NULL);
 	if (idx != 0)
 	{
-		adr = *head;
+		loc = *head;
 
-		for (i = 0; i < idx - 1 && adr != NULL; i++)
+		for (i = 0; i < idx - 1 && loc != NULL; i++)
 		{
-			adr = adr->next;
+			loc = loc->next;
 		}
 
-		if (adr == NULL)
+		if (loc == NULL)
 			return NULL;
 	}
 
