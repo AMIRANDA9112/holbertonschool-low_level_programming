@@ -9,16 +9,16 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-	size_t count = 0;
+	size_t i = 0;
 	const dlistint_t *lector;
 
 	lector = h;
 
-	while (node)
+	while (lector)
 	{
-		printf("%d\n", node->n);
-		count++;
+		printf("%d\n", lector->n);
+		i++;
 		lector = lector->next;
 	}
-	return (count);
+	return (i);
 }
