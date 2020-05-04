@@ -25,7 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="n condition" />
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="BETTY">
+      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/3-add_dnodeint_end.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/3-main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" beforeDir="false" afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588561244431</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="BETTY">
+      <created>1588561624766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588561624766</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +197,8 @@
     <MESSAGE value="line" />
     <MESSAGE value="add node" />
     <MESSAGE value="n condition" />
-    <option name="LAST_COMMIT_MESSAGE" value="n condition" />
+    <MESSAGE value="BETTY" />
+    <option name="LAST_COMMIT_MESSAGE" value="BETTY" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1131" y="310" width="426" height="479" key="FileChooserDialogImpl" timestamp="1588552246476">
@@ -197,10 +209,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="1159" y="473" key="Github.CreateGistDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1588549936892" />
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1588561250488">
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1588561629798">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1588561250488" />
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1588561629798" />
     <state x="1061" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588555437773">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
