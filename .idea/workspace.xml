@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="line">
-      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/2-add_dnodeint.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/2-main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" beforeDir="false" afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" afterDir="false" />
-    </list>
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="n condition" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588555731677</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add node">
+      <created>1588561051990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588561051990</updated>
+    </task>
+    <task id="LOCAL-00012" summary="n condition">
+      <created>1588561244431</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588561244431</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +184,9 @@
     <MESSAGE value="length" />
     <MESSAGE value="*" />
     <MESSAGE value="line" />
-    <option name="LAST_COMMIT_MESSAGE" value="line" />
+    <MESSAGE value="add node" />
+    <MESSAGE value="n condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="n condition" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1131" y="310" width="426" height="479" key="FileChooserDialogImpl" timestamp="1588552246476">
@@ -186,10 +197,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="1159" y="473" key="Github.CreateGistDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1588549936892" />
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1588555736265">
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1588561250488">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1588555736265" />
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1588561250488" />
     <state x="1061" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588555437773">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
