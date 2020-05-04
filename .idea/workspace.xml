@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="lines">
-      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/1-dlistint_len.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" beforeDir="false" afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" afterDir="false" />
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="length">
+      <change beforePath="$PROJECT_DIR$/0x17-doubly_linked_lists/1-dlistint_len.c" beforeDir="false" afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/1-dlistint_len.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588554955211</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="length">
+      <created>1588555388079</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588555388079</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +155,8 @@
     <MESSAGE value="lector" />
     <MESSAGE value="comment issue resolve" />
     <MESSAGE value="lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="lines" />
+    <MESSAGE value="length" />
+    <option name="LAST_COMMIT_MESSAGE" value="length" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1131" y="310" width="426" height="479" key="FileChooserDialogImpl" timestamp="1588552246476">
@@ -160,9 +167,13 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="1159" y="473" key="Github.CreateGistDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1588549936892" />
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1588554956371">
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1588555391396">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1588554956371" />
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1588555391396" />
+    <state x="1061" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588555437773">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1061" y="257" width="672" height="678" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1588555437773" />
   </component>
 </project>
