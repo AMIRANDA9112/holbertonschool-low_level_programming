@@ -25,11 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/7-insert_dnodeint.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/7-main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" beforeDir="false" afterPath="$PROJECT_DIR$/0x17-doubly_linked_lists/lists.h" afterDir="false" />
-    </list>
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,6 +258,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
