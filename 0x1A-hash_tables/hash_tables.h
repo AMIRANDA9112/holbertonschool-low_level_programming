@@ -8,8 +8,8 @@
  *
  * @key: The key, string
  * The key is unique in the HashTable
- * @value: The value corresponding to a key
- * @next: A pointer to the next node of the List
+ * @value: The value of key
+ * @next: A pointer to the next node
  */
 typedef struct node_s
 {
@@ -17,7 +17,12 @@ typedef struct node_s
 	char *value;
 	struct node_s *next;
 } node_t;
-
+/**
+ * struct table_s - Hash table
+ *
+ * @size: The size of array
+ * @array: array of size @size
+ */
 typedef struct table_s
 {
 	unsigned long int size;
