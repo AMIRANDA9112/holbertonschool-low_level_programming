@@ -38,7 +38,4 @@ def island_perimeter(grid):
 
                 else:
                     pass
-            else:
-                pass
-
         return P
