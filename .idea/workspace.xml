@@ -33,23 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/.idea/0x18-dynamic_libraries.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/101-md5_gm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/add.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/add.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/div.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/div.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/gm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mod.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mod.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mul.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mul.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/sub.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/sub.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x18-dynamic_libraries/1-create_dynamic_lib.sh" beforeDir="false" />
-    </list>
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="first" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +247,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588567330259</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="a missed work">
+      <created>1593824805277</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1593824805277</updated>
+    </task>
+    <task id="LOCAL-00026" summary="makefiles">
+      <created>1593824912854</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1593824912854</updated>
+    </task>
+    <task id="LOCAL-00027" summary="first">
+      <created>1593824992963</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1593824992964</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,17 +316,20 @@
     <MESSAGE value="null" />
     <MESSAGE value="simply" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="a missed work" />
+    <MESSAGE value="makefiles" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
     <state x="843" y="419" width="225" height="261" key="#Notifications" timestamp="1589757987690">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="843" y="419" width="225" height="261" key="#Notifications/0.25.1920.1055@0.25.1920.1055" timestamp="1589757987690" />
-    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588562889767">
+    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593824940483">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1588562889767" />
+    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1593824940483" />
     <state x="1131" y="310" width="426" height="479" key="FileChooserDialogImpl" timestamp="1588552246476">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -330,10 +338,14 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="1159" y="473" key="Github.CreateGistDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1588549936892" />
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1588567331935">
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1593824994496">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1588567331935" />
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593824994496" />
+    <state x="1036" y="635" width="404" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593824739944">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1036" y="635" width="404" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593824739944" />
     <state x="1061" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588555437773">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
