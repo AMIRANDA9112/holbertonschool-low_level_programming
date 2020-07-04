@@ -24,12 +24,39 @@
       </path>
     </select>
   </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="add" />
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/.idea/0x18-dynamic_libraries.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/101-md5_gm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/add.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/add.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/div.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/div.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/gm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mod.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mod.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mul.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/mul.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/sub.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x18-dynamic_libraries/sub.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x18-dynamic_libraries/1-create_dynamic_lib.sh" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +74,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../holbertonschool-higher_level_programming/0x17-doubly_linked_lists" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,6 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588549891472</updated>
+      <workItem from="1589757961675" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="head">
       <created>1588554265178</created>
@@ -284,6 +314,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="843" y="419" width="225" height="261" key="#Notifications" timestamp="1589757987690">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="843" y="419" width="225" height="261" key="#Notifications/0.25.1920.1055@0.25.1920.1055" timestamp="1589757987690" />
     <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588562889767">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
