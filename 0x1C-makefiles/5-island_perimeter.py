@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""function that calc the perimeter of a bite island"""
-
+"""Function that calc the perimeter of a island in a Bits Maps"""
 def island_perimeter(grid):
+    """
+
+    :param grid: Bits Map multidimensional array
+    :return: perimeter
+    """
 
     P = 0
     a = len(grid)
@@ -15,7 +19,7 @@ def island_perimeter(grid):
         for i in range(a):
             for j in range(b):
                 if grid[i][j] == 1:
-                    print(P)
+                    P += 4
                     if grid[i + 1][j] == 1:
                         P -= 1
                     if grid[i - 1][j] == 1:
