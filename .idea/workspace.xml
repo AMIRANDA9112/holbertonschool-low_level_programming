@@ -33,9 +33,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="bite">
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="fail and more fail">
       <change beforePath="$PROJECT_DIR$/0x1C-makefiles/5-island_perimeter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x1C-makefiles/5-island_perimeter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x1C-makefiles/5-main.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x1C-makefiles/5-main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +348,35 @@
       <option name="project" value="LOCAL" />
       <updated>1593830968375</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="documents">
+      <created>1593831238942</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1593831238943</updated>
+    </task>
+    <task id="LOCAL-00036" summary="documents">
+      <created>1593831386800</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1593831386800</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fail and more fail">
+      <created>1593831463497</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1593831463497</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fail and more fail">
+      <created>1593831533694</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1593831533694</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,8 +405,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="comment issue resolve" />
-    <MESSAGE value="lines" />
     <MESSAGE value="length" />
     <MESSAGE value="*" />
     <MESSAGE value="line" />
@@ -403,7 +428,9 @@
     <MESSAGE value="oclean rules" />
     <MESSAGE value="without .o" />
     <MESSAGE value="bite" />
-    <option name="LAST_COMMIT_MESSAGE" value="bite" />
+    <MESSAGE value="documents" />
+    <MESSAGE value="fail and more fail" />
+    <option name="LAST_COMMIT_MESSAGE" value="fail and more fail" />
   </component>
   <component name="WindowStateProjectService">
     <state x="843" y="419" width="225" height="261" key="#Notifications" timestamp="1589757987690">
@@ -422,30 +449,30 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="1159" y="473" key="Github.CreateGistDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1588549936892" />
-    <state width="1018" height="280" key="GridCell.Tab.0.bottom" timestamp="1593831222763">
+    <state width="1018" height="280" key="GridCell.Tab.0.bottom" timestamp="1593831447404">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1593831222763" />
-    <state width="1018" height="280" key="GridCell.Tab.0.center" timestamp="1593831222762">
+    <state width="1018" height="280" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447404" />
+    <state width="1018" height="280" key="GridCell.Tab.0.center" timestamp="1593831447404">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1593831222762" />
-    <state width="1018" height="280" key="GridCell.Tab.0.left" timestamp="1593831222762">
+    <state width="1018" height="280" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447404" />
+    <state width="1018" height="280" key="GridCell.Tab.0.left" timestamp="1593831447403">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1593831222762" />
-    <state width="1018" height="280" key="GridCell.Tab.0.right" timestamp="1593831222763">
+    <state width="1018" height="280" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447403" />
+    <state width="1018" height="280" key="GridCell.Tab.0.right" timestamp="1593831447404">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1593831222763" />
+    <state width="1018" height="280" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447404" />
     <state x="373" y="297" key="SettingsEditor" timestamp="1593828687196">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="373" y="297" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1593828687196" />
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1593830970478">
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1593831534908">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593830970478" />
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593831534908" />
     <state x="1036" y="635" width="404" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593824739944">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
