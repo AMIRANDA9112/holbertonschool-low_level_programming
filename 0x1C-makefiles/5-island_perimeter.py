@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Function that calc the perimeter of a island in a Bits Maps"""
+
+
 def island_perimeter(grid):
     """
 
@@ -13,7 +15,6 @@ def island_perimeter(grid):
 
     if a == b or a * b > 100:
         return "Grid is rectangular, width and height don’t exceed 100"
-
 
     else:
         for i in range(a):
