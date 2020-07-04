@@ -33,7 +33,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="first" />
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="first usefull full flags">
+      <change afterPath="$PROJECT_DIR$/0x1C-makefiles/3-Makefile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,7 +270,35 @@
       <option name="project" value="LOCAL" />
       <updated>1593824992964</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="first">
+      <created>1593825095240</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1593825095240</updated>
+    </task>
+    <task id="LOCAL-00029" summary="first">
+      <created>1593825183343</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1593825183343</updated>
+    </task>
+    <task id="LOCAL-00030" summary="makefile alias">
+      <created>1593825251836</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1593825251836</updated>
+    </task>
+    <task id="LOCAL-00031" summary="first usefull full flags">
+      <created>1593825314538</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1593825314538</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,17 +349,19 @@
     <MESSAGE value="a missed work" />
     <MESSAGE value="makefiles" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="makefile alias" />
+    <MESSAGE value="first usefull full flags" />
+    <option name="LAST_COMMIT_MESSAGE" value="first usefull full flags" />
   </component>
   <component name="WindowStateProjectService">
     <state x="843" y="419" width="225" height="261" key="#Notifications" timestamp="1589757987690">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="843" y="419" width="225" height="261" key="#Notifications/0.25.1920.1055@0.25.1920.1055" timestamp="1589757987690" />
-    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593824940483">
+    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593825335006">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1593824940483" />
+    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1593825335006" />
     <state x="1131" y="310" width="426" height="479" key="FileChooserDialogImpl" timestamp="1588552246476">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -338,10 +370,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="1159" y="473" key="Github.CreateGistDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1588549936892" />
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1593824994496">
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1593825315892">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593824994496" />
+    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593825315892" />
     <state x="1036" y="635" width="404" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593824739944">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
