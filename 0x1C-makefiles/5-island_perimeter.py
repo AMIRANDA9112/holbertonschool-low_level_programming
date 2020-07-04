@@ -16,6 +16,9 @@ def island_perimeter(grid):
     if a == b or a * b > 100:
         return "Grid is rectangular, width and height don’t exceed 100"
 
+    if a == 0 or b == 0:
+        return 0
+
     else:
         for i in range(a):
             for j in range(b):
