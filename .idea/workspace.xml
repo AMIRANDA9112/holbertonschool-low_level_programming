@@ -33,12 +33,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="fail and more fail">
-      <change afterPath="$PROJECT_DIR$/0x1E-search_algorithms/0-linear.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x1E-search_algorithms/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x1E-search_algorithms/search_algos.h" afterDir="false" />
+    <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="linear search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0F-function_pointers/0x10-variadic_functions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x1E-search_algorithms/0-linear.c" beforeDir="false" afterPath="$PROJECT_DIR$/0x1E-search_algorithms/0-linear.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x1E-search_algorithms/search_algos.h" beforeDir="false" afterPath="$PROJECT_DIR$/0x1E-search_algorithms/search_algos.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +66,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -116,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588549891472</updated>
       <workItem from="1589757961675" duration="36000" />
-      <workItem from="1604948547735" duration="921000" />
+      <workItem from="1604948547735" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="head">
       <created>1588554265178</created>
@@ -391,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593831725696</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="linear search">
+      <created>1604949695994</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1604949695994</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +434,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="length" />
     <MESSAGE value="*" />
     <MESSAGE value="line" />
     <MESSAGE value="add node" />
@@ -448,12 +458,17 @@
     <MESSAGE value="bite" />
     <MESSAGE value="documents" />
     <MESSAGE value="fail and more fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="fail and more fail" />
+    <MESSAGE value="linear search" />
+    <option name="LAST_COMMIT_MESSAGE" value="linear search" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604948562499">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604949708175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604948562499" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604949708175" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604952469910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604952469910" />
   </component>
 </project>
