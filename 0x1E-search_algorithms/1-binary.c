@@ -1,5 +1,5 @@
 #include "search_algos.h"
-
+void special_print(int low, int high, int *array);
 int recursive_binary(int low, int high, int value, int *list);
 /**
  *binary_search - search a value in a list
