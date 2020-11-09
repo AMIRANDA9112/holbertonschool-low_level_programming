@@ -34,8 +34,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafdb045-0e88-433d-87cb-dca28e27b891" name="Default Changelist" comment="fail and more fail">
+      <change afterPath="$PROJECT_DIR$/0x1E-search_algorithms/0-linear.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x1E-search_algorithms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x1E-search_algorithms/search_algos.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x1C-makefiles/5-island_perimeter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x1C-makefiles/5-island_perimeter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0F-function_pointers/0x10-variadic_functions" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="a44e9a4e-b568-4cb6-be56-6b33f07b260f" />
   <component name="ProjectId" id="1bQ2FKs12bZYy3OfpVj6m0bRGku" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,6 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0x1C-makefiles/5-main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -99,6 +104,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -110,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588549891472</updated>
       <workItem from="1589757961675" duration="36000" />
+      <workItem from="1604948547735" duration="921000" />
     </task>
     <task id="LOCAL-00001" summary="head">
       <created>1588554265178</created>
@@ -387,6 +394,9 @@
     <option name="localTasksCounter" value="40" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -441,53 +451,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="fail and more fail" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="843" y="419" width="225" height="261" key="#Notifications" timestamp="1589757987690">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604948562499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="843" y="419" width="225" height="261" key="#Notifications/0.25.1920.1055@0.25.1920.1055" timestamp="1589757987690" />
-    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593831689933">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="1116" y="354" width="556" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1593831689933" />
-    <state x="1131" y="310" width="426" height="479" key="FileChooserDialogImpl" timestamp="1588552246476">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="1131" y="310" width="426" height="479" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1588552246476" />
-    <state x="1159" y="473" key="Github.CreateGistDialog" timestamp="1588549936892">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="1159" y="473" key="Github.CreateGistDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1588549936892" />
-    <state width="1018" height="280" key="GridCell.Tab.0.bottom" timestamp="1593831447404">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447404" />
-    <state width="1018" height="280" key="GridCell.Tab.0.center" timestamp="1593831447404">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447404" />
-    <state width="1018" height="280" key="GridCell.Tab.0.left" timestamp="1593831447403">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447403" />
-    <state width="1018" height="280" key="GridCell.Tab.0.right" timestamp="1593831447404">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1018" height="280" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1593831447404" />
-    <state x="373" y="297" key="SettingsEditor" timestamp="1593828687196">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="373" y="297" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1593828687196" />
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1593831726750">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="993" y="288" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593831726750" />
-    <state x="1036" y="635" width="404" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593824739944">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="1036" y="635" width="404" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1055@0.25.1920.1055" timestamp="1593824739944" />
-    <state x="1061" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588555437773">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="1061" y="257" width="672" height="678" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1588555437773" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604948562499" />
   </component>
 </project>
