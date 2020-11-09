@@ -2,7 +2,7 @@
 
 int recursive_binary(int low, int high, int value, int *list);
 /**
- *binary_search - search for a value in a list
+ *binary_search - search a value in a list
  *@array: array
  *@size: size of the array
  *@value: goal
